@@ -1,0 +1,48 @@
+@import "./border_box_setting.css";
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.structure {
+    display: flex;
+}
+
+.bar {
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* section {
+    flex-grow: 1;
+}
+ */
+.sec1 {
+    background-color: crimson;
+    flex-grow: 2;
+}
+
+.sec2 {
+    background-color: aqua;
+    flex-grow: 3;
+}
+
+.sec3 {
+    background-color: springgreen;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: tomato;
+}
